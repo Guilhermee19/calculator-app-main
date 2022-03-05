@@ -1,0 +1,56 @@
+.card_key{
+    width: 20%;
+    height: 40px;
+    margin: 0 5px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #484c5a;
+    border-radius: 5px;
+    background-color: #eae3db;
+    box-shadow: 0 4px 0 #bcafa4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card_key:active{
+    box-shadow: 0 0 0 0 #bcafa4 !important;
+    height: 43px;
+    margin: 0 5px 17px;
+}
+
+.card_delet{
+    font-size: 15px !important;
+    color: white !important;
+    background-color: #647299;
+    box-shadow: 0 4px 0 #445078;
+}
+
+.card_reset{
+    width: 46%;
+    font-size: 15px !important;
+    color: white !important;
+    background-color: #647299;
+    box-shadow: 0 4px 0 #445078;
+}
+
+.card_result{
+    width: 46%;
+    color: white !important;
+    background-color: #d13f30;
+    box-shadow: 0 4px 0 0 #972416;
+}
+
+.card_key:hover{
+    background-color: #e1dbd4;
+}
+.card_delet:hover{
+    background-color: #5e6b8f !important;
+}
+.card_reset:hover{
+    background-color: #5c698c !important;
+}
+.card_result:hover{
+    background-color: #c53d2e !important;
+}
